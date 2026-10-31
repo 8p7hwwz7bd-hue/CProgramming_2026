@@ -19,7 +19,9 @@
 
 
 ## How to Compile & Run
-Open the solution file in Visual Studio 2022 or compile via developer command prompt:
-```cmd
-cl ch5/01_swap_getint.c
-01_swap_getint.exe
+Open the integrated terminal in VS Code (or macOS Terminal) and run the following commands to compile and execute:
+
+```bash
+# Example: Compiling and running ex01.c in ch2
+clang ch2/ex01.c -o ch2/ex01
+./ch2/ex01
